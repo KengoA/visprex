@@ -65,7 +65,7 @@ jobs:
     if: github.repository == 'visprex/visprex'
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e  # v2
 
       - name: Google Auth
         id: auth
@@ -90,7 +90,7 @@ jobs:
 
       - name: Deploy to Cloud Run
         id: deploy
-        uses: google-github-actions/deploy-cloudrun@v2
+        uses: google-github-actions/deploy-cloudrun@251330ba9a8a34bfbc1622895f42e1d53fd14522  # v2
         with:
           service: ${{ env.SERVICE }}
           region: ${{ env.REGION }}
