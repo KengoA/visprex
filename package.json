@@ -44,6 +44,6 @@
     "typescript": "^5.2.2",
     "vite": "^8.0.16",
     "vite-plugin-sitemap": "^0.8.2",
-    "vitest": "^4.1.0"
+    "vitest": "^4.1.11"
   }
 }
